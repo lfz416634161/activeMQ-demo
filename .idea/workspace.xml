@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24ae2d7b-5a0b-427d-aa9b-010b23d3ef0d" name="Default" comment="" />
+    <list default="true" id="24ae2d7b-5a0b-427d-aa9b-010b23d3ef0d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/gyf/MyMessageListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gyf/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gyf/Consumer.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +45,20 @@
       <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/gyf/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="155">
+              <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyMessageListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gyf/MyMessageListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +83,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/gyf/Comsumer.java" />
         <option value="$PROJECT_DIR$/src/com/gyf/Producer.java" />
+        <option value="$PROJECT_DIR$/src/com/gyf/MyMessageListener.java" />
         <option value="$PROJECT_DIR$/src/com/gyf/Consumer.java" />
       </list>
     </option>
@@ -86,9 +103,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-3" />
-    <option name="y" value="50" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
     <option name="width" value="1050" />
     <option name="height" value="1038" />
   </component>
@@ -221,7 +237,7 @@
       <option name="presentableId" value="Default" />
       <updated>1544758373166</updated>
       <workItem from="1544758377984" duration="2026000" />
-      <workItem from="1544849513655" duration="2841000" />
+      <workItem from="1544849513655" duration="4155000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1544850985462</created>
@@ -237,11 +253,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544851740682</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.点对点去取activeMQ的内容&#10;主动取">
+      <created>1544853319416</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544853319416</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4867000" />
+    <option name="totallyTimeSpent" value="6181000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -253,24 +276,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="8" y="0" width="840" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
-      <window_info active="true" anchor="bottom" id="Messages" sideWeight="0.49932975" visible="true" weight="0.6222547" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49932975" weight="0.38945827" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.6222547" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21867007" side_tool="true" visible="true" weight="0.32740742" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.46514747" weight="0.7452416" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7828418" weight="0.32796487" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4641944" weight="0.70666665" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.78132993" visible="true" weight="0.32740742" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932975" weight="0.329429" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1152815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26214835" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -348,10 +372,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyf/MyMessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gyf/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        <state relative-caret-position="155">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
         </state>
       </provider>
     </entry>

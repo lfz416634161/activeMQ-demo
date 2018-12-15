@@ -36,23 +36,29 @@ public class Consumer {
             //短信发送的名称要和生产者对应
             destination=session.createQueue("短信发送");
             messageConsumer=session.createConsumer(destination);
-            //2.发送消息
-            for(int i=0;i<5;i++){
+            //2.发送消息 下面这个是主动取
+           /* for(int i=0;i<5;i++){
                TextMessage textMessage=(TextMessage) messageConsumer.receive();
                 System.out.println(textMessage.getText());
-            }
+            }*/
+           //3.写一个MQ的监听器
+            System.out.println("aaaaaaa");
+            //监听启动的是子线程, 不能启动关闭, 不然的话 会直接被关闭掉,然后监听失效
+            messageConsumer.setMessageListener(new MyMessageListener());
+            System.out.println("bbbbbbbbbbbbb");
             session.commit();
+            System.out.println("cccccccccccccc");
         }catch (Exception e){
             e.printStackTrace();
         }finally {
             //3.断开111
-            try{
+           /* try{
                 messageConsumer.close();
                 session.close();
                 connection.close();
             }catch (Exception e){
                 e.printStackTrace();
-            }
+            }*/
         }
 
         }
