@@ -45,7 +45,7 @@ public class Consumer {
         }catch (Exception e){
             e.printStackTrace();
         }finally {
-            //3.断开
+            //3.断开111
             try{
                 messageConsumer.close();
                 session.close();
